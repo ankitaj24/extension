@@ -7,6 +7,7 @@
         btn.style="border: none";
         btn.style.backgroundColor="#f9f9f9";
         btn.style.fontWeight='bold';
+        btn.type="submit";
         document.querySelector("ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer #top-level-buttons-computed").appendChild(img);
         document.querySelector("ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer #top-level-buttons-computed").appendChild(btn);
     }
